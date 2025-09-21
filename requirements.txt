@@ -1,0 +1,10 @@
+pandas
+notebook
+scikit-learn
+xgboost
+mail-parser
+fastapi
+uvicorn[standard]
+nltk
+matplotlib
+seaborn
