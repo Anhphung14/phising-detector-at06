@@ -1,22 +1,4 @@
 .venv/
-data/dataForTrain/processed/unified_dataset_v2_all_text.csv
-data/dataForTrain/processed/unified_dataset_v1_subject_body.csv
 
-# dataForTrain datasets
-data/dataForTrain/CEAS_08.csv
-data/dataForTrain/Nigerian_Fraud.csv
-data/dataForTrain/SpamAssassin.csv
-data/dataForTrain/Nazario.csv
-
-# full datasets
-data/full/CEAS_08.csv
-data/full/Enron.csv
-data/full/Nigerian_Fraud.csv
-data/full/SpamAssassin.csv
-data/full/Nazario.csv
-data/full/phishing_email.csv
-data/full/Ling.csv
-
-# raw datasets
-data/raw/data/raw/Phishing_Email.csv
-data/raw/.ipynb_checkpoints/Phishing_Email-checkpoint.csv
+# Ignore all CSV files in data directory
+data/**/*.csv

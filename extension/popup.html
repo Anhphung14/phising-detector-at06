@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Phishing Detector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Phát hiện Phishing</h1>
+        <button id="analyzeButton">Phân tích Email Hiện tại</button>
+        <div id="results" class="results-box">
+            <p><strong>Trạng thái:</strong> <span id="statusText">Chờ phân tích...</span></p>
+            <p><strong>Kết quả:</strong> <span id="predictionText"></span></p>
+            <p><strong>Độ tin cậy:</strong> <span id="confidenceText"></span></p>
+            <div id="errorText" class="error-message"></div>
+        </div>
+        <p class="note">Xem chi tiết highlight trên email.</p>
+        <div class="test-controls">
+            <button id="mockTestButton" class="mock-btn">Test với dữ liệu giả</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

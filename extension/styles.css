@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #f7f7f7;
+}
+
+.container {
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 15px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.results-box {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: left;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.results-box p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #495057;
+}
+
+.results-box strong {
+    color: #212529;
+}
+
+#predictionText {
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+.note {
+    font-size: 0.8em;
+    color: #6c757d;
+    margin-top: 20px;
+}
+
+/* Styles cho highlight trong email - cải thiện visibility */
+.phishing-highlight-high {
+    background-color: rgba(255, 0, 0, 0.3) !important;
+    border: 2px solid red !important;
+    padding: 2px 4px !important;
+    border-radius: 4px !important;
+    cursor: help !important;
+    font-weight: bold !important;
+    color: darkred !important;
+}
+
+.phishing-highlight-medium {
+    background-color: rgba(255, 165, 0, 0.4) !important;
+    border: 2px solid orange !important;
+    padding: 2px 4px !important;
+    border-radius: 4px !important;
+    cursor: help !important;
+    font-weight: bold !important;
+    color: darkorange !important;
+}
+
+.phishing-highlight-neutral {
+    background-color: rgba(0, 0, 255, 0.2) !important;
+    border: 1px solid blue !important;
+    padding: 1px 2px !important;
+    border-radius: 3px !important;
+    cursor: help !important;
+    color: darkblue !important;
+}
+
+.test-controls {
+    margin-top: 15px;
+    border-top: 1px solid #dee2e6;
+    padding-top: 15px;
+}
+
+.mock-btn {
+    background-color: #28a745;
+    font-size: 0.9em;
+    padding: 8px 12px;
+}
+
+.mock-btn:hover {
+    background-color: #218838;
+}
+
+.mock-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
